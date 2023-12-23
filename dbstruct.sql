@@ -28,6 +28,7 @@ CREATE TABLE `subject`
  `subject_id`   int NOT NULL AUTO_INCREMENT ,
  `subject_name` varchar(45) NOT NULL ,
  `subject_type` varchar(45) NOT NULL ,
+ 'is_humanitarian' boolean NOT NULL
 
 PRIMARY KEY (`subject_id`)
 );
